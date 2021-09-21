@@ -1,0 +1,193 @@
+/*Common Elements*/
+body{
+    font-size: 67.5%;
+    font-family:Arial, Helvetica, sans-serif;
+    background: black url(Assets/blackwood.jpg) repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100% 100% 100%;
+}
+h1{
+    color: purple;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2{
+    color:limegreen;
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+p{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: slategray;
+    padding: 0px;
+    margin: 0px 0.5em .75em 0px;
+}
+ol{
+    font-size: 1.2em;
+    margin: 0 0 0 1em;
+    padding: 0 0 1em;
+}
+ol li{
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+a{
+    color:white;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color:blue;
+}
+.contentWrapper{
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3em;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+div.clear{
+    clear:both;
+    font-size:1%;
+}
+/*Header*/
+header{
+    padding: 4em 0 1em;
+    margin: 0 0 4em;
+    background: darkviolet url(Assets/discoheader.jpg) center 0px;
+    height:273px;
+}
+header h1{
+    font-family: "Brush Script MT";
+    color: silver;
+    font-size: 12em;
+    letter-spacing: .01em;
+    margin: 0;
+    text-shadow: 1px 2px 0 blueviolet;
+}
+header h2{
+    font-weight: 400;
+    font-size: 3.8em;
+    color: green;
+    font-family: fantasy;
+    margin: -.6em 0 0 1em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+}
+/*Footer*/
+footer{
+    background-color:teal;
+    height: 60px;
+    font-size:1.2em;
+    color: white;
+    text-align:center;
+    padding:1.5em 2em;
+}
+footer ul#menuFooter{
+    display:inline-block;
+    list-style: none;
+    margin: 0 0 0 .6em;
+    padding:0;
+}
+footer ul li{
+    display:inline-block;
+    padding: 0 .7 0 0;
+    margin: 0;
+}
+footer a, footer a:visited{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color:red;
+    text-decoration: underline;
+}
+/*Random button CSS*/
+button{
+    color:blue;
+    background-color: white;
+    display:inline-block;
+    padding: .2em .5em;
+    border: 1px dotted orange;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: orange;
+    border: 1px dashed blue;
+}
+/*Main*/
+section #main{
+    background-color: white;
+    text-align: center;
+    margin: 0 0 2em;
+    padding: 1.5em 0 2em 1.5em;
+    display: inline-block;
+    border-radius: 7em;
+}
+section div.panel{
+    float:right;
+    position: relative;
+    width: 250px;
+    margin: 0 .5em 2em .5em;
+    padding: 1em;
+    background-color: white;
+    border-right: blueviolet dashed 1px;
+    border-bottom:blueviolet dashed 1px;
+    border-radius: 3em;
+    text-align: center;
+}
+section div.panel img.cheeseType{
+    width: 100%;
+}
+/*About Section*/
+section#about {
+    width:270px;
+    float:left;
+    position:relative;
+    display: block;
+    background-color: white;
+    margin: 1.5em 0 3em 1.5em;
+    padding: 1.7em .5em 2em 1.7em;
+    border-bottom:blueviolet dashed 3px;
+    border-right:blueviolet dashed 3px;
+    border-radius: 3em;
+}
+/*Top Navigation*/
+nav{
+    color: white;
+    font-size:2em;
+    letter-spacing: .07em;
+    padding: 1em 1em .5em;
+    margin:1em 0;
+}
+nav ul{
+    margin: 0;
+    padding:0;
+    list-style:none;
+}
+nav li{
+    display: inLine-block;
+    margin:0;
+}
+nav#utilityMenu{
+    margin: -1.5em 0 0 0;
+    padding: .2em;
+    background-color: whitesmoke;
+}
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited{
+    color: yellowgreen;
+    text-decoration: none;
+    display:inline-block;
+    height:1em;
+    margin:-.4em 0 0 0;
+    font-size: .8em;
+}
